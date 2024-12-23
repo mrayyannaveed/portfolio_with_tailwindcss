@@ -6,7 +6,7 @@ const ProjectsCom = () => {
         {
             heading: "Pak Wheels",
             desc: "A website for a car rental company",
-            image: "/pakwheels.png",
+            image: "/pakwheels.JPG",
             link: "https://my-pakwheels-app.vercel.app/"
         },
         {

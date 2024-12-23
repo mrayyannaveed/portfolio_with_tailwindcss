@@ -5,7 +5,7 @@ import React from 'react'
 const ProjectsComponent = (props:any) => {
   return (
     <div className='mb-5'>
-        <section className={`text-white hover:scale-110 w-full lg:w-[90%] flex flex-col items-center rounded-2xl gap-3 text-center min-h-[50vh] bg-slate-700 ${props.bg} `}>
+        <section className={`text-white hover:scale-110 w-full lg:w-[90%] flex flex-col items-center rounded-2xl gap-3 text-center min-h-[60vh] bg-slate-700 ${props.bg} `}>
             <Link href={props.link} className={` flex justify-center items-center`}
              target='_blank'>
                 <Image className='rounded-tr-2xl rounded-tl-2xl h-72' src={props.image} alt={props.heading} width={500} height={500}></Image>   
