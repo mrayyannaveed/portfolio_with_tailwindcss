@@ -2,13 +2,6 @@ import React from 'react'
 import ProjectsComponent from './projectsComponent'
 
 const ProjectsCom = () => {
-    // type com = {
-    //     heading: string,
-    //     desc: string,
-    //     bgcol: string,
-    //     atribute: any,
-    //     ani: string
-    // }
     let projectsCom= [
         {
             heading: "Pak Wheels",
@@ -18,31 +11,31 @@ const ProjectsCom = () => {
         },
         {
             heading: "Panacloud Company Porfolio",
-            desc: "A website for a car rental company",
+            desc: "A panacloud Website",
             image: "/panacloud.png",
             link: "https://company-portfolio-indol.vercel.app/"
         },
         {
             heading: "Static Resume Builder",
-            desc: "A website for a car rental company",
+            desc: "My personal static resume",
             image: "/resume.png",
             link: "https://resume-builder-phi-red.vercel.app/"
         },
         {
             heading: "Chairs E-commerce Website",
-            desc: "A website for a car rental company",
+            desc: "A e-commerce website for chairs",
             image: "/chairWeb.png",
             link: "https://ui-ux-hackathon-8.vercel.app/"
         },
         {
             heading: "Dynamic Editable Resume",
-            desc: "A website for a car rental company",
+            desc: "My Personal Dynamic resume you can also generate your resume with it.",
             image: "/dynamicEditableResume.png",
             link: "https://unique-path-and-shareable-link-nu.vercel.app/"
         },
         {
             heading: "Portfolio With Simple Css",
-            desc: "A website for a car rental company",
+            desc: "A personal porfolio using nextjs with vanilla css",
             image: "/cssPortfolio.png",
             link: "https://portfolio-with-css-8.vercel.app/"
         }
