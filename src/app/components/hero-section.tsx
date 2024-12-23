@@ -5,32 +5,29 @@ import dynamic from "next/dynamic";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import Link from "next/link";
 import Image from "next/image";
-import rayyan from "../../../public/rayyan.png";
+import rayyan from "../../../public/rayyan2.jpeg";
 
 const Typewriter = dynamic(() => import("typewriter-effect"), { ssr: false });
 
 const Hero = () => {
   return (
-    <div>
-      <section className="flex justify-evenly items-center h-[100vh]">
-        <section className="w-[60%] grid gap-5">
-            <h1 className="title-font text-5xl mb-5 text-lime-500 font-serif font-bold ml-5 hover:uppercase hover:text-lime-400">
+    <div className="">
+      <section className="flex lg:justify-evenly flex-col-reverse lg:flex-row items-center h-[85vh] ">
+        <section className="w-[90%] sm:w-[80%] md:w-[70%] lg:w-[60%] gap-5 bg-blue-30 flex flex-col items-center lg:items-start">
+            <h1 className="title-font text-2xl sm:text-3xl md:text-4xl lg:text-5xl mb-5 text-lime-500 font-serif font-bold hover:uppercase hover:text-lime-400">
                 <div>
                 <h1 className="flex items-center leading-relaxed">Hello,</h1>
                 <Typewriter
                     options={{
-                    strings: ['I am Rayyan Naveed...', 'I am Web Developer...'],
+                    strings: ['My Self Rayyan Naveed...', 'I am Web Developer...'],
                     autoStart: true,
                     loop: true,
                     }}
                 />
                 </div>
             </h1>
-            <div className="w-[60%]">
-                <p className="mb-8 leading-relaxed ml-10 text-white"
-             data-aos="fade-up" 
-             data-aos-easing="ease-out-cubic"
-             data-aos-duration="1500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ipsa quas perferendis voluptas corrupti minima voluptatem! Beatae, accusantium nihil odio omnis sunt pariatur?</p>
+            <div className="w-[90%] sm:w-[70%] md:w-[65%] lg:w-[60%] text-left">
+                <p className="mb-8 leading-relaxed text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ipsa quas perferendis voluptas corrupti minima voluptatem! Beatae, accusantium nihil odio omnis sunt pariatur?</p>
             </div>
             <div className="flex gap-12 animate-bounce">
                 <Link className="bg-slate-700 rounded-3xl h-10 w-16 flex justify-center items-center text-center hover:bg-slate-400" href={"https://github.com/dashboard"} target="_blank">
@@ -42,7 +39,7 @@ const Hero = () => {
             </div>
         </section>
             <div id="right-cont" className="border-[15px] rounded-full border-solid border-red-600 animate-bounce">
-               <Image className="w-[300px] h-[300px] object-cover rounded-full" src={rayyan} alt="Rayyan Naveed"></Image>
+               <Image className="w-[200px] h-[200px] lg:w-[300px] lg:h-[300px] md:h-[250px] md:w-[250px] sm:w-[220px] sm:h-[220px] object-cover rounded-full" src={rayyan} alt="Rayyan Naveed" width={300} height={300}></Image>
             </div>
       </section>
     </div>

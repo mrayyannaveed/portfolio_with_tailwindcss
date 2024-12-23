@@ -10,7 +10,7 @@ const poppins = Poppins({
 
 const Navbar = () => {
   return (
-    <div>
+    <div className="mb-10 lg:mb-2">
         <nav className="bg-orange-900 py-2 font-[poppins] flex flex-wrap justify-between items-center">
         <section className="flex items-center gap-4">
           <div className="border-solid border-red-600 
