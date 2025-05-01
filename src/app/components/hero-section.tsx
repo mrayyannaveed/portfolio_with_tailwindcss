@@ -30,7 +30,7 @@ const Hero = () => {
                 <p className="mb-8 leading-relaxed text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ipsa quas perferendis voluptas corrupti minima voluptatem! Beatae, accusantium nihil odio omnis sunt pariatur?</p>
             </div>
             <div className="flex gap-12 animate-bounce">
-                <Link className="bg-slate-700 rounded-3xl h-10 w-16 flex justify-center items-center text-center hover:bg-slate-400" href={"https://github.com/dashboard"} target="_blank">
+                <Link className="bg-slate-700 rounded-3xl h-10 w-16 flex justify-center items-center text-center hover:bg-slate-400" href={"https://github.com/mrayyannaveed"} target="_blank">
                     <FaGithub className="text-2xl text-white"/>
                 </Link>
                 <Link className="bg-blue-600 rounded-3xl h-10 w-16 flex justify-center items-center text-center hover:bg-blue-400" href={"https://www.linkedin.com/in/muhammad-rayyan-naveed-63090b329/"} target="_blank">

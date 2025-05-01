@@ -2,7 +2,7 @@ import React from 'react'
 import { DiHtml5 } from 'react-icons/di'
 import SkillsComponent from './skillsComponent'
 import { FaCss3Alt } from 'react-icons/fa'
-import { RiTailwindCssFill } from 'react-icons/ri'
+import { RiNextjsFill, RiTailwindCssFill } from 'react-icons/ri'
 import { SiTypescript } from 'react-icons/si'
 
 const SkillsCom = () => {
@@ -33,7 +33,7 @@ const SkillsCom = () => {
             desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
             ani: "animate-bounce",
             atribute: <RiTailwindCssFill className='text-5xl'/>,
-            bgcol: "bg-[#1d8daa]"
+            bgcol: "bg-gradient-to-br from-lime-400 to-zinc-800"
         },
         {
             heading: "Typescript",
@@ -41,6 +41,13 @@ const SkillsCom = () => {
             ani: "animate-pulse",
             atribute: <SiTypescript className='text-5xl'/>,
             bgcol: "bg-gradient-to-br from-blue-700 to-blue-800"
+        },
+        {
+            heading: "NextJs",
+            desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
+            ani: "animate-pulse",
+            atribute: <RiNextjsFill className='text-5xl'/>,
+            bgcol: "bg-gradient-to-br from-slate-400 to-zinc-800"
         }
     ]
   return (

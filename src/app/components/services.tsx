@@ -44,7 +44,7 @@ const ServicesCom = () => {
                     )
                 })}
             </section>
-        <Link className='flex justify-center mb-20' href={""}>
+        <Link className='flex justify-center mb-20' href={"/contact"}>
             <Button className='bg-gradient-to-br from-pink-600 to-yellow-400
              md:text-2xl text-xl md:px-6 md:py-5 hover:bg-gradient-to-tr hover:from-slate-700 hover:to-green-400'>Contact Me</Button>
         </Link>
