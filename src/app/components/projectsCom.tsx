@@ -25,7 +25,7 @@ const ProjectsCom = () => {
             heading: "Chairs E-commerce Website",
             desc: "A e-commerce website for chairs",
             image: "/chairWeb.png",
-            link: "https://ui-ux-hackathon-8.vercel.app/"
+            link: "https://ui-ux-api-integration.vercel.app/"
         },
         {
             heading: "Dynamic Editable Resume",
